@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJCommentTextView_Example' do
+  pod 'XJCommentTextView', :path => '../'
+
+  target 'XJCommentTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
