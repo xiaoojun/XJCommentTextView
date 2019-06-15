@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XJCommentTextView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XJCommentTextView.'
+  s.summary          = ' 快速集成一个评论输入框 XJCommentTextView.'
   s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.

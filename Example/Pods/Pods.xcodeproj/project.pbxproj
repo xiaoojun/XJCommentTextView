@@ -16,8 +16,8 @@
 		5B23083B6D9049FFD98755D1D3EAD3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		999E0D629423CB61D4C907C70D2DAA62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		A43A3B5CEC4EFFD19F5D41F40D160D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		EA70056722B4CE7800EEE58D /* XJTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70056522B4CE7800EEE58D /* XJTextView.swift */; };
-		EA70056822B4CE7800EEE58D /* XJTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70056622B4CE7800EEE58D /* XJTextContentView.swift */; };
+		EA70056B22B4D17800EEE58D /* XJTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70056922B4D17800EEE58D /* XJTextContentView.swift */; };
+		EA70056C22B4D17800EEE58D /* XJTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70056A22B4D17800EEE58D /* XJTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		DC2180EAA7FA85EA27CD84D835C65C6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E35CEFEEB60C11BFCE13A5B5AA36FC1F /* Pods-XJCommentTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJCommentTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E545CE1F07E530DB5026F31493E93341 /* Pods-XJCommentTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJCommentTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EA70056522B4CE7800EEE58D /* XJTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJTextView.swift; sourceTree = "<group>"; };
-		EA70056622B4CE7800EEE58D /* XJTextContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJTextContentView.swift; sourceTree = "<group>"; };
+		EA70056922B4D17800EEE58D /* XJTextContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XJTextContentView.swift; path = XJCommentTextView/Classes/XJTextContentView.swift; sourceTree = "<group>"; };
+		EA70056A22B4D17800EEE58D /* XJTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XJTextView.swift; path = XJCommentTextView/Classes/XJTextView.swift; sourceTree = "<group>"; };
 		F14543800735C2EE75776288FC596CEF /* XJCommentTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XJCommentTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C30DE844BAD232B9D3B7F368BD486B /* Pods-XJCommentTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XJCommentTextView_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,8 +160,8 @@
 		A8919801D427C39F4ACC811ACE5D670D /* XJCommentTextView */ = {
 			isa = PBXGroup;
 			children = (
-				EA70056622B4CE7800EEE58D /* XJTextContentView.swift */,
-				EA70056522B4CE7800EEE58D /* XJTextView.swift */,
+				EA70056922B4D17800EEE58D /* XJTextContentView.swift */,
+				EA70056A22B4D17800EEE58D /* XJTextView.swift */,
 				F31CC2E6ED9A061A0E2B44D739BA9A82 /* Pod */,
 				A2167E6C3FBE3BC7CD93E7A7E5C6C67B /* Support Files */,
 			);
@@ -373,9 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA70056822B4CE7800EEE58D /* XJTextContentView.swift in Sources */,
+				EA70056C22B4D17800EEE58D /* XJTextView.swift in Sources */,
 				170B841267B7C55D018876FE0D399B7E /* Pods-XJCommentTextView_Example-dummy.m in Sources */,
-				EA70056722B4CE7800EEE58D /* XJTextView.swift in Sources */,
+				EA70056B22B4D17800EEE58D /* XJTextContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
