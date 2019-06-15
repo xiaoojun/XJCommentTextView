@@ -1,0 +1,16 @@
+PODS:
+  - XJCommentTextView (0.1.0)
+
+DEPENDENCIES:
+  - XJCommentTextView (from `../`)
+
+EXTERNAL SOURCES:
+  XJCommentTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XJCommentTextView: 2ec7befda01dc68ac0a9cfaee1ef55c38fbfe5cc
+
+PODFILE CHECKSUM: c937e300504fc819cc3843e951850cb47b8faaf6
+
+COCOAPODS: 1.6.1

@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		02F4C3CF0A992D2C318F2032 /* Pods-XJCommentTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJCommentTextView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XJCommentTextView_Tests/Pods-XJCommentTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19E46E9F17EDFAB5700FD029 /* Pods-XJCommentTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJCommentTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XJCommentTextView_Tests/Pods-XJCommentTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		21DE5094430B42AA652B7DDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		21DE5094430B42AA652B7DDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4B719118DD346542611DC4FE /* Pods_XJCommentTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJCommentTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BFE6BC671943C6A738A67F /* Pods_XJCommentTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJCommentTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* XJCommentTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJCommentTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		769756975DBE1158928DC075 /* Pods-XJCommentTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJCommentTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XJCommentTextView_Example/Pods-XJCommentTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B289F8F0EF34C64ADD10667A /* XJCommentTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XJCommentTextView.podspec; path = ../XJCommentTextView.podspec; sourceTree = "<group>"; };
+		B289F8F0EF34C64ADD10667A /* XJCommentTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJCommentTextView.podspec; path = ../XJCommentTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8EFA7BA4A2E917264F9339D /* Pods-XJCommentTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJCommentTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-XJCommentTextView_Example/Pods-XJCommentTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FA8F9B0AF827AE90E4AF81EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA8F9B0AF827AE90E4AF81EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				19E46E9F17EDFAB5700FD029 /* Pods-XJCommentTextView_Tests.debug.xcconfig */,
 				02F4C3CF0A992D2C318F2032 /* Pods-XJCommentTextView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

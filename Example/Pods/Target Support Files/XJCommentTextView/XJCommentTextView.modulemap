@@ -1,0 +1,6 @@
+framework module XJCommentTextView {
+  umbrella header "XJCommentTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'XJCommentTextView'
   s.version          = '0.1.0'
   s.summary          = 'A short description of XJCommentTextView.'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +22,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/961721716@qq.com/XJCommentTextView'
+  s.homepage         = 'https://github.com/xiaoojun/XJCommentTextView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '961721716@qq.com' => '961721716@qq.com' }
-  s.source           = { :git => 'https://github.com/961721716@qq.com/XJCommentTextView.git', :tag => s.version.to_s }
+  s.author           = { 'xiaoojun' => '961721716@qq.com' }
+  s.source           = { :git => 'https://github.com/xiaoojun/XJCommentTextView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ s.frameworks = 'UIKit'
+ s.dependency 'SnapKit'
 end
