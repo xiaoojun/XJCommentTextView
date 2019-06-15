@@ -8,7 +8,7 @@
 
 import UIKit
 
-class XJTextView: UITextView {
+public class XJTextView: UITextView {
 
     /// 占位文本
     var placeHolderText : String = "" {
@@ -36,7 +36,7 @@ class XJTextView: UITextView {
     
     
     /// 输入文本的内间距
-    override var textContainerInset: UIEdgeInsets {
+    override public var textContainerInset: UIEdgeInsets {
         didSet {
             var textC = self.textContainerInset
             textC.left += 3
@@ -46,7 +46,7 @@ class XJTextView: UITextView {
     
     
     /// 输入文本
-    override var text: String! {
+    override public var text: String! {
         didSet {
             self.setNeedsDisplay()
         }
@@ -54,21 +54,21 @@ class XJTextView: UITextView {
     
     
     /// 属性文本
-    override var attributedText: NSAttributedString! {
+    override public var attributedText: NSAttributedString! {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
     /// 字体
-    override var font: UIFont? {
+    override public var font: UIFont? {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
     /// 文本对其方式
-    override var textAlignment: NSTextAlignment {
+    override public var textAlignment: NSTextAlignment {
         didSet {
             self.setNeedsDisplay()
         }
@@ -93,7 +93,7 @@ class XJTextView: UITextView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override var bounds: CGRect {
+    override public var bounds: CGRect {
         didSet {
             if self.contentSize.height <= self.bounds.size.height + 1 {
                 self.contentOffset = .zero
@@ -125,7 +125,7 @@ class XJTextView: UITextView {
         }
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
         
         if self.text.count == 0 && self.placeHolderText.count > 0 {
@@ -137,7 +137,7 @@ class XJTextView: UITextView {
 
 }
 
-extension XJTextView {
+public extension XJTextView {
     
     
     /// 设置占位文本的属性值

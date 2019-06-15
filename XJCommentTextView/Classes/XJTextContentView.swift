@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-protocol XJTextContentViewDataSource : class {
+public protocol XJTextContentViewDataSource : class {
     func textFontOFTextContentView() -> UIFont //字体
     func defaultHeightOfTextContentView() -> CGFloat //默认高度
     func maxLineOfTextContentView() -> Int // 最大行数
@@ -18,7 +18,7 @@ protocol XJTextContentViewDataSource : class {
 }
 
 
-class XJTextContentView: UIView {
+public class XJTextContentView: UIView {
 
     weak var dataSource : XJTextContentViewDataSource!
     let textViw = XJTextView()
@@ -115,7 +115,7 @@ class XJTextContentView: UIView {
     }
 }
 
-extension XJTextContentView {
+public extension XJTextContentView {
     
     /// 单行文本的高度
     ///
@@ -154,7 +154,7 @@ extension XJTextContentView {
     }
 }
 
-extension XJTextContentView {
+public extension XJTextContentView {
     /// 键盘弹出监听
     ///
     /// - Parameter noti: Notification

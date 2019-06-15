@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJCommentTextView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = ' 快速集成一个评论输入框 XJCommentTextView.'
   s.swift_version    = '4.2'
 
@@ -37,7 +37,6 @@ TODO: Add long description of the pod here.
   #   'XJCommentTextView' => ['XJCommentTextView/Assets/*.png']
   # }
 
- s.public_header_files = 'Pods/SnapKit/**/*.swift'
  s.frameworks = 'UIKit'
  s.dependency 'SnapKit'
 end
