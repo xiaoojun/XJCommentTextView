@@ -21,22 +21,22 @@ public protocol XJTextContentViewDataSource : class {
 public class XJTextContentView: UIView {
 
     weak var dataSource : XJTextContentViewDataSource!
-    let textViw = XJTextView()
+    public let textViw = XJTextView()
    
     var heightConstraint : NSLayoutConstraint?
     var bottomConstraint : NSLayoutConstraint?
     var originBottomConstraintConstant : CGFloat = 0
     
-    var originCommentID = ""
-    var commentID : String?
-    var didClickSendBtn : ((String,String) -> Void)?
-    var clearTextWhenhHideKeyboard : Bool = false
+    public var originCommentID = ""
+    public var commentID : String?
+    public var didClickSendBtn : ((String,String) -> Void)?
+    public var clearTextWhenhHideKeyboard : Bool = false
     
     deinit {
          NotificationCenter.default.removeObserver(self)
     }
     
-    func initializeUI(_ dataSource : XJTextContentViewDataSource) {
+   public func initializeUI(_ dataSource : XJTextContentViewDataSource) {
         self.dataSource = dataSource
         
         self.backgroundColor = UIColor.lightGray
@@ -101,6 +101,11 @@ public class XJTextContentView: UIView {
         }
     }
     
+    
+}
+
+public extension XJTextContentView {
+    
     func addkeyboardNotification() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChangeFrame), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
@@ -113,9 +118,6 @@ public class XJTextContentView: UIView {
         self.textViw.text = ""
         self.commentID = self.originCommentID
     }
-}
-
-public extension XJTextContentView {
     
     /// 单行文本的高度
     ///
