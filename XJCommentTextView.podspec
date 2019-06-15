@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJCommentTextView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = ' 快速集成一个评论输入框 XJCommentTextView.'
   s.swift_version    = '4.2'
 
