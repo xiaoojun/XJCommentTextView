@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'XJCommentTextView' => ['XJCommentTextView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+ s.public_header_files = 'Pods/SnapKit/**/*.swift'
  s.frameworks = 'UIKit'
  s.dependency 'SnapKit'
 end
