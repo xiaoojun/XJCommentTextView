@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 protocol XJTextContentViewDataSource : class {
     func textFontOFTextContentView() -> UIFont //字体

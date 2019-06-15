@@ -1,5 +1,5 @@
 import XCTest
-import XJCommentTextView
+//import XJCommentTextView
 
 class Tests: XCTestCase {
     

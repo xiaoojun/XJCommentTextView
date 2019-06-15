@@ -1,16 +1,24 @@
 PODS:
-  - XJCommentTextView (0.1.0)
+  - SnapKit (4.2.0)
+  - XJCommentTextView (0.1.0):
+    - SnapKit
 
 DEPENDENCIES:
+  - SnapKit
   - XJCommentTextView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   XJCommentTextView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XJCommentTextView: 2ec7befda01dc68ac0a9cfaee1ef55c38fbfe5cc
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  XJCommentTextView: c20a1cddc4e9dba32dde7f77949ca54219deabc4
 
-PODFILE CHECKSUM: c937e300504fc819cc3843e951850cb47b8faaf6
+PODFILE CHECKSUM: aaf5f0f0757e1548f196bb6054dc4a0c50f95627
 
 COCOAPODS: 1.6.1

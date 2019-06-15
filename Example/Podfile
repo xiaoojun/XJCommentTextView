@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'XJCommentTextView_Example' do
   pod 'XJCommentTextView', :path => '../'
-
+  pod 'SnapKit'
   target 'XJCommentTextView_Tests' do
     inherit! :search_paths
 
